@@ -29,7 +29,7 @@ async def start_(client: Client, message: Message):
     f"""● **🇦🇿🐊 **Salam** {message.from_user.mention}\n\n**ℹ️ Mən music endirmə botuyam istədiyin musiqini yükləyəbilərsiniz**\n\n**✅ Yardım üçün** /help **düyməsini basın**""",
         reply_markup=InlineKeyboardMarkup(
             [[
-                    InlineKeyboardButton('Support Qrupu 🤍🐊', url=f'https://t.me/Karabakhteamm{Config.GROUP}'),
+                    InlineKeyboardButton('Support Qrupu 🤍🐊', url=f'https://t.me/RiyaddTeam{Config.GROUP}'),
                   ],[
                     InlineKeyboardButton('Playlist 🎵', url=f'https://t.me/RiyaddBlog{Config.PLAYLIST_NAME}')
                 ]
